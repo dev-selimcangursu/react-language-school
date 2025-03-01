@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 
-
 export default function HeaderMenu() {
   return (
     <ul className="hidden md:flex row justift-between items-center gap-4">
       <li>
-        <Link to='/'>Anasayfa</Link>
+        <Link to="/">Anasayfa</Link>
       </li>
       <li className="relative group">
         Eğitimler

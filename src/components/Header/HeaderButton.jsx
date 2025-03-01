@@ -14,7 +14,7 @@ export default function HeaderButton() {
     <>
       {status && <Sidebar closeSidebar={() => setStatus(false)} />}
 
-      <Button className="hidden md:block py-2 px-4 bg-gradient-to-r from-indigo-600 to-purple-700 text-white  text-sm cursor-pointer rounded-lg shadow-lg hover:from-indigo-500 hover:to-purple-600 transition-all duration-300 ease-in-out">
+      <Button className="hidden md:block py-2 px-4 bg-gradient-to-r from-indigo-900 to-gray-900 text-white  text-sm cursor-pointer rounded-lg shadow-lg transition-all duration-300 ease-in-out">
         Seviye Tespit Sınavı
       </Button>
       <RxHamburgerMenu
